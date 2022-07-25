@@ -430,7 +430,7 @@ body {
   .button__readmore::before {
     position: absolute;
     content: "";
-    background: url(/mymaket/img/icon.svg) no-repeat;
+    background: url('/mymaket/img/icon.svg') no-repeat;
     width: 8px;
     height: 10px;
     left: -15px;
