@@ -119,6 +119,7 @@ body {
   font-family: "Bold";
   position: relative;
   letter-spacing: -0.6px;
+
   height: 40px;
   margin-top: 0px;
   left: 16px;
@@ -430,7 +431,7 @@ body {
   .button__readmore::before {
     position: absolute;
     content: "";
-    background: url('/mymaket/img/icon.svg') no-repeat;
+    background: url("/mymaket/img/icon.svg") no-repeat;
     width: 8px;
     height: 10px;
     left: -15px;
