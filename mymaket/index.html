@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="wrapper">
-      <div class="header">
+      <header class="header">
         <div class="header__left-part">
           <button type="button" class="header__button header__burger"></button>
           <div class="header__left-part-divider"></div>
@@ -25,48 +25,47 @@
             class="header__button header__checkstatus"
           ></button>
         </div>
-      </div>
+      </header>
+      <div class="shadow"></div>
       <main class="main">
         <div class="newHeader">
         <h1 class="main__title">Услуги и сервисы </h1><div class="label">
         <label>Оставить заявку</label> <button type="button" class="header__button header__repair2"></button>
         <label>Статус ремонта</label><button  type="button" class="header__button header__checkstatus2"></button></div></div>
-        <div class="slideMenu">
-          <div class="slideMenu__scroll">
-           <button
-              type="button"
-              class="slideMenu__button slideMenu__button--active"
-            >
-              Ремонтируемые устройства
-            </button>
-            <button type="button" class="slideMenu__button">
-              Ремонтируемые бренды
-            </button> 
-            <div class="hidingButton"><button type="button" class="slideMenu__button">
-              Дополнительные услуги
-            </button></div>
-            <button type="button" class="slideMenu__button">
-              Цены на услуги
-            </button>
-            <button type="button" class="slideMenu__button">
-              Адреса сервисных центров
-            </button>
-            <button type="button" class="slideMenu__button">
-              Специальные цены
-            </button>
-          
-          </div>
-          <button type="button" class="slideMenu__button1">Отзывы</button>
-        </div>
+        <nav class="slideMenu">
+          <ul class="slideMenu__nav">
+           <li class="slideMenu__item slideMenu__item--active">
+              <a href="#" class="nav__link" style="color: #7e7e82">Ремонтируемые устройства</a>
+            </li>
+            <li class="slideMenu__item">
+              <a href="#" class="nav__link" style="color: #7e7e82">Ремонтируемые бренды</a>
+            </li> 
+            <div class="slideMenu__itemAditionally"><li class="slideMenu__item">
+              <a href="#" class="nav__link" style="color: #7e7e82">Дополнительные услуги</a>
+            </li></div>
+            <li  class="slideMenu__item">
+              <a href="#" class="nav__link" style="color: #7e7e82">Цены на услуги</a>
+            </li>
+            <li  class="slideMenu__item">
+              <a href="#" class="nav__link" style="color: #7e7e82">Адреса сервисных центров</a>
+            </li>
+            <li  class="slideMenu__item">
+              <a href="#" class="nav__link" style="color: #7e7e82">Специальные цены</a>
+            </li>
+            <!-- <li  class="slideMenu__item1">
+              <a href="#" class="nav__link" style="color: #7e7e82">Отзывы</a>
+            </li> -->
+          </ul>
+          <button type="button"  class="slideMenu__item1">Отзывы</button>
+        </nav>
         <div class="main__about">
           <div class="main__text">
-            
             Мы являемся авторизованным сервисным центром по ремонту техники
             Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
             официальной гарантией производителя.
 
-            <span class="textcontinue">
-               <br>Мы успешно работаем с 1992 года и заслужили репутацию надежного
+            <span class="textcontinue"><br><br>
+               Мы успешно работаем с 1992 года и заслужили репутацию надежного
               партнера 
             </span>
             <span class="textcontinue2">
@@ -78,7 +77,7 @@
               <button type="button" class="button__readmore">Читать далее</button>
             </div>
            </div>
-          <div class="main__img"></div>
+         <!-- <div class="main__img">--> <img src='/mymaket/img/_MG_3223.svg' alt="logo"> 
         </div>
         </div>
       </main>
